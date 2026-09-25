@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img class="bg" src="images/bg.png" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">Capsula Enigma</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu.icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes.somos.html">Quienes Somos</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car-negro.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <div id="carrito-total" style="text-align: right; font-weight: bold; padding: 10px; font-size: 1.2rem;">
+                                Total: $<span id="val-total">0</span>
+                            </div>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>Bienvenido</span> disfruta de nuestras Mistery box</h1>
+                <p>
+                    En nuestra tienda encontrarás una amplia variedad de productos de alta calidad, cuidadosamente
+                    seleccionados para satisfacer tus necesidades y gustos. Explora nuestras categorías y descubre
+                    ofertas exclusivas que te encantarán.
+                </p>
+                <a href="#informacion" class="btn-1">información</a>
+            
+            </div>
+            <div class="header-img">
+                <img src="images/p1-1.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <section class="breakfast container">
+
+        <h2>Mistery box</h2>
+        <p>
+            Descubre nuestras categorias de Mistery box, llenos de sorpresas regalos para ti.
+        </p>
+
+        <div class="breakfast-content">
+
+            <div class="breakfast-1">
+                <img src="images/b1.png" alt="">
+                <h3>matera box, articulos para un matero de verda</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="images/b2.png" alt="">
+                <h3>fulbo box, articulos de fulbo argentino para un rel fanático</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="images/b3.png" alt="">
+                <h3>comida box, articulos para un amante de la comida salada y dulce</h3>
+            </div>
+            <div class="breakfast-1">
+                <img src="images/b4.png" alt="">
+                <h3>perfumera box, articulos para un amante de los perfumes </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="info" id="informacion">
+
+        <img class="bg-2" src="images/bg-2.png" alt="">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="images/box.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>Capsula información</h2>
+                <p>
+                    En nuestra tienda, nos enorgullece ofrecer productos de alta calidad y un servicio excepcional. Nos
+                    esforzamos por brindar una experiencia de compra única, asegurando que cada cliente encuentre lo que
+                    busca y se sienta valorado.
+                    
+
+                    <p>Nuestro equipo está siempre disponible para responder tus preguntas y
+                    ayudarte a tomar decisiones informadas.
+                    contantanos o ve y sige las redes para mas informasion.</p>
+                </p>
+                <a href="contacto.html" class="btn-1">contacto y redes</a>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2 id="productos">Productos</h2>
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="images/b1.png" alt="">
+                <div class="product-txt">
+                    <h3>Matera Box</h3>
+                    <p>Para acompañar las cebadas y los buenos momentos</p>
+                    <p class="precio">$12000</p>
+                    <a href="javascript:void(0)" class="agregar-carrito btn-3" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/b2.png" alt="">
+                <div class="product-txt">
+                    <h3>Fulbo Box</h3>
+                    <p>Para que la pelota sea mas amiga, como oliver atom</p>
+                    <p class="precio">$15000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/b3.png" alt="">
+                <div class="product-txt">
+                    <h3>Comida Box</h3>
+                    <p>Cuando queres algo dulce y salado</p>
+                    <p class="precio">$12000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/b4.png" alt="">
+                <div class="product-txt">
+                    <h3>Perfumera Box</h3>
+                    <p>Para que el aroma sea mas atractivo</p>
+                    <p class="precio">$11000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/b5.png" alt="">
+                <div class="product-txt">
+                    <h3>Comida dulce Box</h3>
+                    <p>Para cuendo tenes antogo de algo dulce </p>
+                    <p class="precio">$10000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+            </div>
+            </div>
+            <div class="box">
+                <img src="images/b6.png" alt="">
+                <div class="product-txt">
+                    <h3>Comida salada Box</h3>
+                    <p>para cuando tenes antogo de algo salado</p>
+                    <p class="precio">$13000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/b7.png" alt="">
+                <div class="product-txt">
+                    <h3>Navidad Box</h3>
+                    <p>Para la temporada navideña, Box navidena sorpresas para comer rico en las fiestas</p>
+                    <p class="precio">$17000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+    <section class="app container">
+        
+        <div class="app-txt">
+                <h2>Descarga nuestra app</h2>
+                <p>
+                    Descarga nuestra aplicación móvil para disfrutar de una experiencia de compra aún más conveniente y
+                    personalizada. Con nuestra app, podrás explorar nuestro catálogo completo, recibir notificaciones de
+                    ofertas exclusivas y realizar tus compras de manera rápida y segura desde cualquier lugar.
+                </p>
+               <div class="descarga">
+                <img src="images/store1.png" alt="">
+                <img src="images/store2.png" alt="">
+               </div>
+
+            </div>
+
+            <div class="app-img">
+                <img src="images/app.png" alt="">
+             </div>
+           
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>redes sociales</h3>
+                <ul>
+                    <li><a href="https://instagram.com">Instagram</a></li>
+                    <li><a href="#">tiktok</a></li>
+                    <li><a href="https://instagram.com">Comunidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="https://mail.google.com/">capsulanigma@gmail.com</a></li>
+                    <li><a href="https://wa.me 11 2251-8663">whatsApp</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>negosio</h3>
+                <ul>
+                    <li><a href="Buenos Aires 880, Bella Vista, Corrientes">buenos aires, argentina</a></li>
+                    <li><a href="https://www.google.com/maps/place/Corefin/@-34.5524708,-58.6912375,232m/data=!3m1!1e3!4m6!3m5!1s0x95bcbc5337fb0e6f:0x66e9216dc32cb3e5!8m2!3d-34.552471!4d-58.690912!16s%2Fg%2F11f_4rxscp?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D">entrerios y corientes, 450</a></li>
+                    <li><a >Atencion: lun a vie</a></li>
+                </ul>
+            </div>
+               <div class="link">
+                <h3>app disponible </h3>
+                 <div class="descarga">
+                <img src="images/store1.png" alt="">
+                <img src="images/store2.png" alt="">
+               </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

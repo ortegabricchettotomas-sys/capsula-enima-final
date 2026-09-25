@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <img class="bg" src="images/bg.png" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">Capsula Enigma</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu.icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes.somos.html">Quienes Somos</a></li>
+                    <li><a href="index.html#productos">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car-negro.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <div id="carrito-total"
+                                style="text-align: right; font-weight: bold; padding: 10px; font-size: 1.2rem;">
+                                Total: $<span id="val-total">0</span>
+                            </div>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>¿Tenes alguna duda??</span>¡Hablemos!</h1>
+                <p>
+                    Si tenes dudas o buscas mas informasion rebisa o escribinos por cualquira de nuestros canales
+                    oficiales y te responderemos a la brevedad.
+                </p>
+            </div>
+            <div class="contact-img">
+                <a href="#contacto"><img src="images/cont.png"  ></a>
+            </div>
+        </div>
+    </header>
+    <main class="products container" id="contacto">
+
+        <div class="box-container">
+              <div class="box" id="wha">
+                 <img src="images/b8.png" alt="">
+                <div class="product-txt">
+                    <h3>Nuestro WhatsAPP</h3>
+                    <p>Chatea con nosotros en nuestro whats APP</p>
+                    <a href="https://wa.me 11 2251-8663" class="agregar-carrito btn-3">Contactanos</a>
+                </div>
+            </div>
+            <div class="box" id="ins">
+                 <img src="images/b9.avif" alt="">
+                <div class="product-txt">
+                    <h3>Instagram Empresa</h3>
+                    <p>Enterate de todo en unuestros medio de difusion ofisial en @capsulaenigma</p>
+                    <a href="https://instagram.com" class="agregar-carrito btn-3">Seguinos en ig</a>
+                </div>
+            </div>
+
+              <div class="box" id="correo">
+                 <img src="images/b9.png" alt="">
+                <div class="product-txt">
+                    <h3>Correo Electronico</h3>
+                    <p>Madanos tus mails por consultas a el correo </p>
+                    <a href="https://mail.google.com/" class="agregar-carrito btn-3" >Mails</a>
+                </div>
+            </div>
+
+    </main>
+
+</body>
+
+</html>
